@@ -2,13 +2,15 @@
 <style>
 header{
     text-align: center;
+    
 }
 section{
     display: flex;
+    justify-content:center;
 }
 article{
-    margin-left:30px;
-    margin-right:350px;
+    margin-left:50px;
+    margin-right:270px;
 }
 footer{
     text-align: center;
@@ -32,18 +34,18 @@ footer{
 
     <section>
     <article>
-        <h3>aaaa</h3>
-        <h4>bbbb</h4>
+        <h3 style="color:blue">Banff</h3>
+        <h4 style="color:red">Lake Louies</h4>
     </article>
 
     <body>
-        <h5>ccccc</h5>
+        <img src="un/default.jpg" width="150",height="300">
     </body>
 
     
     </section>
     <footer>
-        link
+        <a href="un/default.jpg">link of image</a>
     </footer>
 
 </html>
