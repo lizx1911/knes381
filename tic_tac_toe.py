@@ -45,7 +45,7 @@ def check_draw(board):
 
 # define the function to play the game
 def play_game():
-  # Use constants for player symbols in case we want to use different symbols in the future.
+  # Improvement3:Use constants for player symbols in case we want to use different symbols in the future.
   PLAYER_X = "X"
   PLAYER_O = "O"
   # initialize the game
